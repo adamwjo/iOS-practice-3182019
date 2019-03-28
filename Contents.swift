@@ -34,6 +34,9 @@ var menu = [
 
 print("The total cost of the meal is \(menu["pizza"]! + menu["drink"]!)")
 
+//you can use the .count method to give you the length of the dictionary
+print(dictionary.count)
+
 //If statements ***********************************************************************************
 let age = 18
 
