@@ -37,6 +37,15 @@ print("The total cost of the meal is \(menu["pizza"]! + menu["drink"]!)")
 //you can use the .count method to give you the length of the dictionary
 print(dictionary.count)
 
+//you can add an item to a dictionary by using bracket notation.
+dictionary["pen"] = "an old writing utencil"
+
+//to remove a value use the ".removeValue" method and pass in the key you wish to remove
+dictionary.removeValue(forKey: "pen")
+
+//define an EMPTY dictionary by specifying the data types within it and "calling" it as you would a function
+let gameCHaracters = [String: Double]()
+
 //If statements ***********************************************************************************
 let age = 18
 
