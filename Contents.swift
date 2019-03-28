@@ -13,7 +13,13 @@ func getMilk(){
 
 
 
-//Dictionary ****************************************************************************************
+
+
+
+
+
+
+//Dictionaries ****************************************************************************************
 var dictionary = ["computer": "a cool device to do things on", "your mom": "lets not go there"]
 
 var menu = [
@@ -44,7 +50,24 @@ dictionary["pen"] = "an old writing utencil"
 dictionary.removeValue(forKey: "pen")
 
 //define an EMPTY dictionary by specifying the data types within it and "calling" it as you would a function
-let gameCHaracters = [String: Double]()
+var gameCHaracters = [String: Double]()
+
+var myMeal = [String: Double]()
+myMeal["pizza"] = 10.99
+myMeal["salad"] = 5.99
+myMeal["chicken"] = 12.99
+myMeal["drink"] = 1.99
+
+print("The total cost of my meal is: \(myMeal["pizza"]! + myMeal["drink"]! + myMeal["salad"]! + myMeal["chicken"]!) ")
+
+
+//*********************************************************************************************************
+
+
+
+
+
+
 
 //If statements ***********************************************************************************
 let age = 18
